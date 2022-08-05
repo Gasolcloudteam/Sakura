@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">Hexo静态博客搭建教程 | 星尘の小站</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "星尘の小站Blog";
+  mashiro_option.author_name = "Blog";
+  mashiro_option.site_url = "https://xingchenblog.ml/";
+  mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
+  mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/miku.gif".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('朋友，IE浏览器未适配哦~');
+  }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+</head>
+</html>
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <a href="https://xingchenblog.ml/">
+          <img src="https://pic.rmb.bdstatic.com/bjh/4d0bc5251b0b8744c872e9021acea141.png">
+        </a>
+      </div>
+      <div class="header-info">
+        <p>错过了漫天繁星，可以期待落日余晖。</p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="https://github.com/Gasolcloudteam" target="_blank" class="social-github" title="Github">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/github.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://qr.alipay.com/tsx1475831spjsceyj1pwe6" target="_blank" class="social-github" title="Alipay">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/Alipay.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3226477957&amp;site=qq&amp;menu=yes" target="_blank" class="social-github" title="QQ">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/qq.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="mailto:lihaoyun2020@foxmail.com" target="_blank" class="social-github" title="Email">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/email.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://twitter.com/Gasolcloudteam" target="_blank" class="social-github" title="Twitter">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/twitter.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://t.me/Gasolcloudteam" target="_blank" class="social-github" title="Telegram">
+                    <img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/icon/telegram.png">
+                  </a>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink moe-mashiro">
+          <a href="/">
+            <span class="sakurasono">星尘の小站</span>
+            <span class="shironeko">Blog</span>
+          </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/技术教程/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术教程
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/Linux教程/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          Linux教程
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/软件教程/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          软件教程
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/公告/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          公告
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/Java学习笔记/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          Java学习笔记
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/Python学习笔记/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          Python学习笔记
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/电影资源分享/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          电影资源分享
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/心晴日迹/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          心晴日迹
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-meetup" aria-hidden="true"></i>
+                          我？
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">Hexo静态博客搭建教程</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2021-6-27&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <h3 id="注册一个美丽的Github账号"><a href="#注册一个美丽的Github账号" class="headerlink" title="注册一个美丽的Github账号"></a>注册一个美丽的Github账号</h3><p>如果不会，自行<a href="https://www.baidu.com/" target="_blank" rel="noopener">百度搜索</a>；<a href="https://sogou.com/" target="_blank" rel="noopener">搜狗搜索</a>，本处不提供了。</p>
+<p><strong>注：本处教程为将hexo搭建到GitHub中，通过GitHub pages提供博客静态托管服务部署。</strong></p>
+<p><strong>注：本处教程为将hexo搭建到GitHub中，通过GitHub pages提供博客静态托管服务部署。</strong></p>
+<p><strong>注：本处教程为将hexo搭建到GitHub中，通过GitHub pages提供博客静态托管服务部署。</strong></p>
+<p>如果有自己的虚拟主机、服务器可以直接将生成的public文件夹部署到虚拟主机、服务器进行访问。</p>
+<h3 id="创建Github-io库"><a href="#创建Github-io库" class="headerlink" title="创建Github.io库"></a>创建Github.io库</h3><p>在<a href="https://github.com/new" target="_blank" rel="noopener">这里</a>创建Github库</p>
+<p>库名为 <code>&lt;你的Github用户名&gt;.github.io</code> (固定格式)</p>
+<p><code>Description</code>处可随意</p>
+<p>然后Create repository即可</p>
+<h3 id="安装-amp-配置Git"><a href="#安装-amp-配置Git" class="headerlink" title="安装&amp;配置Git"></a>安装&amp;配置Git</h3><p>在<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">此处</a>下载系统对应版本的Git</p>
+<p>Linux可直接通过包管理器安装</p>
+<p>Linux:在终端内输入</p>
+<p>Windows:打开Git Bash输入</p>
+<pre><code class="bash">git config --global user.name &quot;&lt;Your Github username here&gt;&quot;
+git config --global user.email &quot;&lt;Your Github email here&gt;&quot;
+</code></pre>
+<h3 id="在Github中添加ssh密钥"><a href="#在Github中添加ssh密钥" class="headerlink" title="在Github中添加ssh密钥"></a>在Github中添加ssh密钥</h3><h5 id="创建SSH密钥"><a href="#创建SSH密钥" class="headerlink" title="创建SSH密钥"></a>创建SSH密钥</h5><p>依旧是Linux终端或Windows Git Bash</p>
+<pre><code class="bash">ssh-keygen -t rsa -C &quot;&lt;Your Github email here&gt;&quot;
+</code></pre>
+<p>接着直接回车即可 我们无需设置密码</p>
+<p>现在，SSH密钥就已经存在于你的</p>
+<p>Windows <code>C:\Users\&lt;Your user name&gt;\.ssh\id_rsa.pub</code></p>
+<p>Linux <code>~/.ssh/id_rsa.pub</code></p>
+<h5 id="在Github中添加"><a href="#在Github中添加" class="headerlink" title="在Github中添加"></a>在Github中添加</h5><p>随便找一个文本编辑器打开你的SSH密钥文件</p>
+<p>在<a href="https://github.com/settings/keys" target="_blank" rel="noopener">这里</a>点击”New SSH Key”</p>
+<p><code>Title</code>可随意填写</p>
+<p>下方的填写你的SSH密钥内容</p>
+<p>最后点击<code>Add SSH Key</code>即可</p>
+<h5 id="测试是否正常"><a href="#测试是否正常" class="headerlink" title="测试是否正常"></a>测试是否正常</h5><pre><code class="bash">ssh git@github.com
+</code></pre>
+<p>如果出现</p>
+<pre><code class="bash">Hi &lt;username&gt;! You&#39;ve successfully authenticated, but Github does not provide shell access
+Connection to github.com closed.
+</code></pre>
+<p>说明成功配置git</p>
+<h3 id="安装-配置node-js和npm"><a href="#安装-配置node-js和npm" class="headerlink" title="安装/配置node.js和npm"></a>安装/配置node.js和npm</h3><h5 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h5><p>Windows用户在<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">这里</a>下载node.js</p>
+<p>LTS为长期支持版 Current为普通版本</p>
+<p>Linux用户请在包管理器中安装</p>
+<h5 id="查看node-js是否正常安装"><a href="#查看node-js是否正常安装" class="headerlink" title="查看node.js是否正常安装"></a>查看node.js是否正常安装</h5><pre><code class="bash">node -v
+npm -v
+</code></pre>
+<h5 id="更改npm镜像源"><a href="#更改npm镜像源" class="headerlink" title="更改npm镜像源"></a>更改npm镜像源</h5><p>我这里使用<a href="https://npm.taobao.com" target="_blank" rel="noopener">淘宝镜像源</a></p>
+<p>你可以通过下面这两条命令更改镜像源</p>
+<pre><code class="bash">npm config set registry https://registry.npm.taobao.org
+npm config get registry
+</code></pre>
+<p>如果返回<code>https://registry.npm.taobao.org/</code>代表成功更改镜像源</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>创建一个文件夹 在里面打开终端</p>
+<h5 id="使用npm安装Hexo"><a href="#使用npm安装Hexo" class="headerlink" title="使用npm安装Hexo"></a>使用npm安装Hexo</h5><pre><code class="bash">npm install -g hexo-cli
+</code></pre>
+<p>安装完成 初始化博客</p>
+<pre><code class="bash">hexo init
+</code></pre>
+<h5 id="检查博客是否正常工作"><a href="#检查博客是否正常工作" class="headerlink" title="检查博客是否正常工作"></a>检查博客是否正常工作</h5><pre><code class="bash">hexo g //生成更改内容
+hexo s //运行本地网页服务器
+</code></pre>
+<p>如果不出意外 在你的4000端口上就已经有了hexo博客</p>
+<p>你可以去康一下</p>
+<p>按Ctrl+C停止本地服务器</p>
+<h3 id="推送hexo到github-io上"><a href="#推送hexo到github-io上" class="headerlink" title="推送hexo到github.io上"></a>推送hexo到github.io上</h3><p>刚刚我们只是在本地运行了博客 其他人现在还无法访问</p>
+<p>所以我们现在将博客推送到github.io上面供别人访问</p>
+<h5 id="修改本地博客配置文件"><a href="#修改本地博客配置文件" class="headerlink" title="修改本地博客配置文件"></a>修改本地博客配置文件</h5><p>在本地博客中找到<code>_config.yml</code> 使用文本编辑器打开它</p>
+<p>找到<code>deploy</code>部分</p>
+<p>修改为</p>
+<pre><code class="bash">deploy:
+    type: git
+    repo: &lt;Your github repo here&gt;.git
+    branch: master
+</code></pre>
+<p>这里附上我的<code>deploy</code>以供参考</p>
+<pre><code class="bash">deploy:
+  type: git
+  repo: https://github.com/Gasolcloudteam/Gasolcloudteam.github.io.git
+  branch: man
+</code></pre>
+<p>保存</p>
+<h5 id="推送博客"><a href="#推送博客" class="headerlink" title="推送博客"></a>推送博客</h5><p>在最后的推送之前 我们还需要在npm中安装一个小插件</p>
+<pre><code class="bash">npm install hexo-deployer-git --save
+</code></pre>
+<p>接着在命令行中输入</p>
+<pre><code class="bash">hexo clean //清除缓存
+hexo g //生成更改
+hexo d //推送到服务器
+</code></pre>
+<p>至此 你现在已经可以通过<code>&lt;Your Github name here&gt;.github.io</code>访问你的博客了</p>
+<h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><h5 id="更改主要的主题"><a href="#更改主要的主题" class="headerlink" title="更改主要的主题"></a>更改主要的主题</h5><p>应该都看到了 自带的主题<strong>非常</strong>难看</p>
+<p>所以这步我们就要更换主题</p>
+<p>在<a href="https://hexo.io/themes/" target="_blank" rel="noopener">中</a>找到你心仪的主题</p>
+<p>一般主题点进去都会有自己主题的使用方式</p>
+<p>大部分都是使用git clone将的主题下载下来</p>
+<p>我这里使用<a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="noopener"><code>fluid</code></a>做演示</p>
+<p>找到主题地址</p>
+<pre><code class="bash">git clone -b master https://github.com/fluid-dev/hexo-theme-fluid
+</code></pre>
+<p>然后修改站点配置文件<code>_config.yml</code></p>
+<p>找到<code>theme</code></p>
+<p>更改为你下载到的主题名称</p>
+<p>我这里改成<code>fluid</code>就可以了</p>
+<p>不过有些主题需要一些依赖 缺啥补啥即可</p>
+<h5 id="更改网站基本信息"><a href="#更改网站基本信息" class="headerlink" title="更改网站基本信息"></a>更改网站基本信息</h5><p>依旧是熟悉的<code>_config.yml</code></p>
+<p>在<code># Site</code>下方即可更改网站基本信息</p>
+<pre><code class="bash"># Site
+title: 网站标题
+subtitle: 标题下方文字
+description: 描述
+keywords:
+author: 作者
+language: 语言
+timezone: 时区
+</code></pre>
+<p>这里附上我的<code># Site</code>部分 供参考</p>
+<pre><code class="bash"># Site
+title: 枷锁云-星尘blog
+subtitle: &#39;&#39;
+description: 错过了满天繁星，可以期待落日余晖。
+keywords:
+author: 星尘
+language: zh-CN
+timezone: Asia/Shanghai
+</code></pre>
+<h5 id="对你的主题进行配置"><a href="#对你的主题进行配置" class="headerlink" title="对你的主题进行配置"></a>对你的主题进行配置</h5><p>每个主题都不一样 按照主题自己的Doc来肯定没错🤷‍♂️</p>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>常用的hexo指令</p>
+<pre><code class="bash">hexo clean    //清除hexo缓存
+hexo g        //重新生成hexo
+hexo s        //运行本地服务器
+hexo d        //将hexo推送到设置好的服务器上
+hexo new &quot;&lt;Your post name here&gt;&quot;    //新建博文
+hexo new page &quot;&lt;Your page name here&gt;&quot;    //新建页面
+</code></pre>
+<p>博文在新建后会存到<code>/&lt;博客根目录&gt;/source/_post中</code></p>
+<p>采用<code>Markdown</code>语法格式</p>
+<p>我个人建议使用<code>Typora</code>进行<code>Markdown</code>的编写</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/支付宝支付.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/微信支付.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2021/07/03/新网盘上线啦/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                新网盘上线啦</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2021/06/25/你好世界-hello-world-电影在线观看/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="https://i04piccdn.sogoucdn.com/dbe5335a6dedd3ca" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://i04piccdn.sogoucdn.com/dbe5335a6dedd3ca">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                你好世界-hello world 电影在线观看</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+
+
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author"></a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 枷锁云-星尘<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2018</p>
+    </div>
+    <div class="footer-device">
+    <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        </span>
+      </p>
+    </div>
+  </div><!-- .site-info -->
+</footer>
+
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://pic.rmb.bdstatic.com/bjh/4d0bc5251b0b8744c872e9021acea141.png">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">星尘の小站Blog</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="https://github.com/Gasolcloudteam" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+        <a href="https://qr.alipay.com/tsx1475831spjsceyj1pwe6" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=3226477957&site=qq&menu=yes" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+        <a href="mailto:lihaoyun2020@foxmail.com" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+        <a href="https://twitter.com/Gasolcloudteam" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+        <a href="https://t.me/Gasolcloudteam" class="fa " target="_blank" style="color: #; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/技术教程/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术教程
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/Linux教程/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  Linux教程
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/软件教程/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  软件教程
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/公告/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  公告
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/Java学习笔记/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  Java学习笔记
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/Python学习笔记/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  Python学习笔记
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/电影资源分享/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  电影资源分享
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/心晴日迹/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  心晴日迹
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-meetup" aria-hidden="true"></i>
+                  我？
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="2660651585"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+</body>
+</html>
