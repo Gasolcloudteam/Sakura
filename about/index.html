@@ -368,6 +368,7 @@
 <p> 目前活跃于bilibili等社交平台。</p>
 
 <!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 -->
+
 <div class="entry-content">
   <div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">星尘の对话机</div>
   <div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
@@ -376,10 +377,10 @@
     </p>
     <h4>
     与&nbsp;<ruby>
-    Mashiro&nbsp;<rp>
+    屏幕前的你&nbsp;<rp>
     （</rp>
     <rt>
-    真（ま）白（しろ）</rt>
+    枷锁云-星尘</rt>
     <rp>
     ）</rp>
     </ruby>
@@ -396,6 +397,7 @@ bot_ui_ini()
 </script>
 
 
+
 <h2 id="状态-🌱-正在疯狂长大中…"><a href="#状态-🌱-正在疯狂长大中…" class="headerlink" title="状态 - 🌱 正在疯狂长大中…"></a>状态 - 🌱 正在疯狂长大中…</h2><h3 id="⚡-迷茫的时候，就抬头看看星空吧。我愿在那里为你照亮整片黑夜。当你为错过太阳而流泪时，那么你也将错过群星。"><a href="#⚡-迷茫的时候，就抬头看看星空吧。我愿在那里为你照亮整片黑夜。当你为错过太阳而流泪时，那么你也将错过群星。" class="headerlink" title="⚡ 迷茫的时候，就抬头看看星空吧。我愿在那里为你照亮整片黑夜。当你为错过太阳而流泪时，那么你也将错过群星。"></a>⚡ 迷茫的时候，就抬头看看星空吧。我愿在那里为你照亮整片黑夜。当你为错过太阳而流泪时，那么你也将错过群星。</h3><h2 id="💬-联系我："><a href="#💬-联系我：" class="headerlink" title="💬 联系我："></a>💬 联系我：</h2><p>QQ: <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3226477957&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener">3226477957</a></p>
 <p>WeChat: xingchen-lihao</p>
 <p>Email：<a href="mailto:lihaoyun2020@foxmail.com" target="_blank" rel="noopener">lihaoyun2020@foxmail.com</a></p>
@@ -404,11 +406,37 @@ bot_ui_ini()
 <p>Telegram: <a href="https://t.me/Gasolcloudteam" target="_blank" rel="noopener">https://t.me/Gasolcloudteam</a></p>
 <h2 id="My-Github："><a href="#My-Github：" class="headerlink" title="My Github："></a>My Github：</h2><p><img src="https://github-readme-stats.vercel.app/api?username=Gasolcloudteam&amp;show_icons=true&amp;count_private=true&amp;line_height=40" alt="GitHub Stats"><br><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gasolcloudteam&amp;show_icons=true" alt="Top Languages"></p>
 <p><a href="https://github.com/Gasolcloudteam/cdn" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Gasolcloudteam&amp;repo=cdn" alt="Readme Card"></a><br><a href="https://github.com/Gasolcloudteam/homepages" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Gasolcloudteam&amp;repo=homepages" alt="Readme Card"></a><br><a href="https://github.com/Gasolcloudteam/hexo-starter" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Gasolcloudteam&amp;repo=hexo-starter" alt="Readme Card"></a><br><a href="https://github.com/Gasolcloudteam/linux-order" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Gasolcloudteam&amp;repo=linux-order" alt="Readme Card"></a><br><a href="https://github.com/Gasolcloudteam/start-pages" target="_blank" rel="noopener"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Gasolcloudteam&amp;repo=start-pages" alt="Readme Card"></a></p>
-<h2 id="捐赠我"><a href="#捐赠我" class="headerlink" title="捐赠我"></a>捐赠我</h2><p><a href="https://xingchenblog.ml/juanzeng/index.html" target="_blank" rel="noopener">点击这里跳转</a></p>
 
       <!-- .entry-content -->
       
 
+
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+    <div id="waline"></div>
+    <style>
+    #waline textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
+    <script>
+        Waline({
+              el: '#waline',
+              serverURL: 'https://comment.xingchenblog.ml/',
+              pageSize: '10',
+              lang: 'zh-CN',
+              requiredFields: ['nick','mail'], //设置必填项
+              placeholder: '祝开开心心！',
+              visitor: 'false',
+              emoji: [
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+              ],
+              avatar: 'mp',
+              dark: 'auto',
+            });
+    </script>
 
 
       <div class="single-reward">
@@ -800,7 +828,7 @@ $(document).ready(function() {
 </style>
 <meting-js
 
-    id="2660651585"
+    id="6668969716"
 
     server="netease"
 
@@ -808,7 +836,7 @@ $(document).ready(function() {
 
     fixed="true"
 
-    autoplay="false"
+    autoplay="true"
 
     loop="all"
 
