@@ -397,15 +397,15 @@
 </code></pre>
 <p>关于静态ip与动态ip的详细配置教程，见网页：<a href="https://xingchenblog.ml/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">点击跳转</a> 以前已写这里不再演示</p>
 <p>首先通过<code>ip a</code>命令查看本机ip地址</p>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/1.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/1.png" alt></p>
 <h2 id="使用SecureFTP登录到Centos"><a href="#使用SecureFTP登录到Centos" class="headerlink" title="使用SecureFTP登录到Centos"></a>使用SecureFTP登录到Centos</h2><p>这里以离线安装为例，使用<code>SecureFTP</code>连接虚拟机，拷贝<code>vsftpd.rpm</code>到<code>/root</code>目录下</p>
 <p>关于<code>SecureFTP</code>的使用，详见网页：<a href="https://xingchenblog.ml/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/#%E9%85%8D%E5%A5%97ftp%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%EF%BC%9A" target="_blank" rel="noopener">点击跳转</a> 以前已写这里不再演示</p>
 <p>将文件拖入传输的远程服务器</p>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/2.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/2.png" alt></p>
 <p>然后我们回到终端，输入：</p>
 <pre><code class="bash">rpm -ivh vsftpd.rpm #i是必要选项，代表install（安装），vh可选添加
 </code></pre>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/3.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/3.png" alt></p>
 <h2 id="安装完毕后，配置服务端文件"><a href="#安装完毕后，配置服务端文件" class="headerlink" title="安装完毕后，配置服务端文件"></a>安装完毕后，配置服务端文件</h2><p><code>vi</code>命令编辑配置文件<code>vsftpd.conf</code></p>
 <pre><code class="bash">vi /etc/vsftpd/vsftpd.conf
 </code></pre>
@@ -417,13 +417,13 @@ userlist_file=/etc/vsftpd.user_list
 <pre><code class="bash">vi /etc/vsftpd.user_list
 </code></pre>
 <p>这里以user1为例：</p>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/4.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/4.png" alt></p>
 <h2 id="使用基础命令添加用户并创建密码"><a href="#使用基础命令添加用户并创建密码" class="headerlink" title="使用基础命令添加用户并创建密码"></a>使用基础命令添加用户并创建密码</h2><p>前面讲了一些基础命令，如果不知道，请查看网页：<a href="https://xingchenblog.ml/2022/06/03/Linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E5%91%BD%E4%BB%A4" target="_blank" rel="noopener">点击跳转</a></p>
 <pre><code class="bash">useradd user1 #创建用户user1
 </code></pre>
 <pre><code class="bash">passwd user1 #修改指定用户user1密码
 </code></pre>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/5.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/5.png" alt></p>
 <h2 id="关闭或者放行Centos相关端口"><a href="#关闭或者放行Centos相关端口" class="headerlink" title="关闭或者放行Centos相关端口"></a>关闭或者放行Centos相关端口</h2><p>因Centos属于服务器系统，自带防火墙、安全组等，这里以关闭为例</p>
 <h2 id="停止防火墙"><a href="#停止防火墙" class="headerlink" title="停止防火墙"></a>停止防火墙</h2><pre><code class="bash">systemctl stop firewalld.service #终端输入指令，关闭系统防火墙
 </code></pre>
@@ -432,7 +432,7 @@ userlist_file=/etc/vsftpd.user_list
 SELINUX=disabled #修改
 reboot #使用本命令重启系统，让更改生效
 </code></pre>
-<p><img src="https://xingchendrive.ml/file/xingchen/%E8%AF%BE%E7%A8%8B/vsftpd/6.png" alt></p>
+<p><img src="https://static-aba66bd1-03ea-482d-811b-4ea202c3baf2.bspapp.com/vsftpd/6.png" alt></p>
 <h2 id="最后连接到搭建好的vsftpd服务端"><a href="#最后连接到搭建好的vsftpd服务端" class="headerlink" title="最后连接到搭建好的vsftpd服务端"></a>最后连接到搭建好的vsftpd服务端</h2><p>windows打开cmd<br>ftp ip地址</p>
 <pre><code class="bash">ftp 192.168.72.130 #这里以我的实际ip为例
 </code></pre>
@@ -625,9 +625,9 @@ reboot #使用本命令重启系统，让更改生效
 <script type="text/javascript">
 /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","movies":{"url": "","name":"","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","movies":{"url": "","name":"","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
 /* ]]> */
 
