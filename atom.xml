@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-08-14T05:29:15.414Z</updated>
+  <updated>2022-08-22T08:08:46.388Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Centos安装hexo</title>
+    <link href="/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/"/>
+    <id>/2022/08/22/Centos安装hexo/</id>
+    <published>2022-08-22T07:56:01.000Z</published>
+    <updated>2022-08-22T08:08:46.388Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;hexo文档：&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;1、安装Git&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>百度网盘破解限速汇总</title>
@@ -500,35 +527,6 @@
         
         
           &lt;h1 id=&quot;AnLink-在电脑上操作手机&quot;&gt;&lt;a href=&quot;#AnLink-在电脑上操作手机&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="软件教程" scheme="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-    
-      <category term="软件教程" scheme="/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WSL开启图形化（GUI）</title>
-    <link href="/2021/08/03/WSL%E5%BC%80%E5%90%AF%E5%9B%BE%E5%BD%A2%E5%8C%96%EF%BC%88GUI%EF%BC%89/"/>
-    <id>/2021/08/03/WSL开启图形化（GUI）/</id>
-    <published>2021-08-03T04:42:19.000Z</published>
-    <updated>2022-08-05T01:29:09.419Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;WSL如何开启图形化？&lt;/p&gt;
-&lt;p&gt;相信这是一个很多使用过的朋友想知道的问题，&lt;/p&gt;
-&lt;p&gt;那么今天我给大家带来通过MOE万能脚本自动部署的教程&lt;/p&gt;
-&lt;div style=&quot;position: relative; width: 100%; height: 0;
         
       
     
