@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">星尘の小站</title>
+  <title itemprop="name">Windows11老机型ISO覆盖更新绕过TPM教程 | 星尘の小站</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -356,483 +356,160 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 0px;"></div>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/5277d193-bde1-4d52-952d-cb5848a495ef.jpg);" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/5277d193-bde1-4d52-952d-cb5848a495ef.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Windows11老机型ISO覆盖更新绕过TPM教程</h1>
+      <p class="entry-census">
+        <span>
+          <a href="/about">
+            <img src="https://pic.rmb.bdstatic.com/bjh/4d0bc5251b0b8744c872e9021acea141.png">
+          </a>
+        </span>
+        <span>
+          <a href="/about">枷锁云-星尘</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2022-9-22<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
 <div id="content" class="site-content">
-  
-  <div class="notice" style="margin-top:60px">
-    <i class="iconfont icon-notification">
-    </i>
-    <div class="notice-content">欢迎来到我的小站！</div>
-  </div>
-  
-  <div class="top-feature-row">
-  <h1 class="fes-title" style="font-family: 'Ubuntu', sans-serif;">
-  <i class="fa fa-anchor" aria-hidden="true">
-  </i>
-  START:DASH!!</h1>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://space.bilibili.com/514124095/" target="_blank">
-        <div class="img">
-          <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/7fcd0f0b-9aa4-4f9a-a42f-1ea85f3a201e.png">
-        </div>
-        <div class="info">
-          <h3>Bilibili</h3>
-          <p>博主的b站视频</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://xingchencloud.top/" target="_blank">
-        <div class="img">
-          <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/762faea6-6a0f-4614-8cad-bb93519586ef.jpg">
-        </div>
-        <div class="info">
-          <h3>星尘の主页</h3>
-          <p>技术服务</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-</div>
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <h1 class="main-title" style="font-family: 'Ubuntu', sans-serif;">
-      <i class="fa fa-envira" aria-hidden="true"></i>
-      Discovery</h1>
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>众所周知，Windows11后老机型各种限制，尤其是TPM模块，那么我们如何关闭TPM2.0的检测呢？静态给大家带来TPM2.0一键关闭命令。</p>
+<p>尤其是之前通过pe偷渡的朋友，随着Windows11 22H2的发布，想升级但有限制，又要格式化磁盘或者替换文件？ </p>
+<p>大可不必！绕过TPM2.0很简单！</p>
+<h2 id="命令方案【推荐】"><a href="#命令方案【推荐】" class="headerlink" title="命令方案【推荐】"></a>命令方案【推荐】</h2><p>请在桌面或者其他地方新建一个文本文档，复制以下命令，粘贴进去后保存，后缀名为：<code>.bat</code>然后右键以管理员身份执行一遍即可，执行完毕后即可直接打开ISO里面的setup.exe覆盖升级！</p>
+<pre><code class="powershell"> @(set &quot;0=%~f0&quot;^)#) &amp; powershell -nop -c iex([io.file]::ReadAllText($env:0)) &amp; exit/b
+    #:: double-click to run or just copy-paste into powershell - it&#39;s a standalone hybrid script
+    #:: v2 using ifeo instead of wmi - increased compatibility at the cost of showing a cmd briefly on diskmgmt
+
+    $_Paste_in_Powershell = {
+      $N = &#39;Skip TPM Check on Dynamic Update&#39;
+      $B = gwmi -Class __FilterToConsumerBinding -Namespace &#39;root\subscription&#39; -Filter &quot;Filter = &quot;&quot;__eventfilter.name=&#39;$N&#39;&quot;&quot;&quot; -ea 0
+      $C = gwmi -Class CommandLineEventConsumer -Namespace &#39;root\subscription&#39; -Filter &quot;Name=&#39;$N&#39;&quot; -ea 0
+      $F = gwmi -Class __EventFilter -NameSpace &#39;root\subscription&#39; -Filter &quot;Name=&#39;$N&#39;&quot; -ea 0
+      if ($B) { $B | rwmi } ; if ($C) { $C | rwmi } ; if ($F) { $F | rwmi }
+      $C = &quot;cmd /q $N (c) AveYo, 2021 /d/x/r&gt;nul (erase /f/s/q %systemdrive%\`$windows.~bt\appraiserres.dll&quot;
+      $C+= &#39;&amp;md 11&amp;cd 11&amp;ren vd.exe vdsldr.exe&amp;robocopy &quot;../&quot; &quot;./&quot; &quot;vdsldr.exe&quot;&amp;ren vdsldr.exe vd.exe&amp;start vd -Embedding)&amp;rem;&#39;
+      $K = &#39;HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vdsldr.exe&#39;
+      if (test-path $K) {ri $K -force -ea 0; write-host -fore 0xf -back 0xd &quot;`n $N [REMOVED] run again to install &quot;; timeout /t 5}      else {$0=ni $K; sp $K Debugger $C -force; write-host -fore 0xf -back 0x2 &quot;`n $N [INSTALLED] run again to remove &quot;;timeout /t 5}
+      $0 = sp HKLM:\SYSTEM\Setup\MoSetup &#39;AllowUpgradesWithUnsupportedTPMOrCPU&#39; 1 -type dword -force -ea 0
+    } ; start -verb runas powershell -args &quot;-nop -c &amp; {`n`n$($_Paste_in_Powershell-replace&#39;&quot;&#39;,&#39;\&quot;&#39;)}&quot;
+</code></pre>
+<h2 id="其他方案"><a href="#其他方案" class="headerlink" title="其他方案"></a>其他方案</h2><p>如果你有更好的方法欢迎留言共享！</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/支付宝支付.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/微信支付.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2022/08/22/Centos安装hexo/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Centos安装hexo</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
 
-  <div class="post-thumb">
-    <a href="/2022/09/22/Windows11老机型ISO覆盖更新绕过TPM教程/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/5277d193-bde1-4d52-952d-cb5848a495ef.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-9-22 09:09</div>
-      <a href="/2022/09/22/Windows11老机型ISO覆盖更新绕过TPM教程/" class="post-title">
-        <h3>Windows11老机型ISO覆盖更新绕过TPM教程</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/技术教程/">技术教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/技术教程/">技术教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/09/22/Windows11老机型ISO覆盖更新绕过TPM教程/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
+
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+    <div id="waline"></div>
+    <style>
+    #waline textarea {
+        box-sizing: border-box;
+        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
+    }
+    </style>
+    <script>
+        Waline({
+              el: '#waline',
+              serverURL: 'https://comment.xingchenblog.ml/',
+              pageSize: '10',
+              lang: 'zh-CN',
+              requiredFields: ['nick','mail'], //设置必填项
+              placeholder: '欢迎使用本站评论系统！如果想自定义头像等，可以点击左下角登录注册账户！',
+              visitor: 'false',
+              emoji: [
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+              ],
+              avatar: 'mp',
+              dark: 'auto',
+            });
+    </script>
+
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="/about" class="profile gravatar"><img src="https://pic.rmb.bdstatic.com/bjh/4d0bc5251b0b8744c872e9021acea141.png" itemprop="image" alt="枷锁云-星尘" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="/about" itemprop="url" rel="author">枷锁云-星尘</a>
+            </h3>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/08/22/Centos安装hexo/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-8-22 15:08</div>
-      <a href="/2022/08/22/Centos安装hexo/" class="post-title">
-        <h3>Centos安装hexo</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/08/22/Centos安装hexo/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/08/12/百度网盘破解限速汇总/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://img.zcool.cn/community/016ea95c87dd64a80121416885dec2.png@1280w_1l_2o_100sh.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-8-12 22:08</div>
-      <a href="/2022/08/12/百度网盘破解限速汇总/" class="post-title">
-        <h3>百度网盘破解限速汇总</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/软件教程/">软件教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/软件教程/">软件教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/08/12/百度网盘破解限速汇总/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/07/07/通过KMS38激活Windows/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/240e19e6-a1ca-43e6-bf74-422fb850e04b.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-7-7 15:07</div>
-      <a href="/2022/07/07/通过KMS38激活Windows/" class="post-title">
-        <h3>通过KMS38激活Windows</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/技术教程/">技术教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/技术教程/">技术教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/07/07/通过KMS38激活Windows/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/06/13/Centos搭建vsftpd服务器/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-6-13 17:06</div>
-      <a href="/2022/06/13/Centos搭建vsftpd服务器/" class="post-title">
-        <h3>Centos搭建vsftpd服务器</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/06/13/Centos搭建vsftpd服务器/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/06/03/Linux基本命令/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-6-3 00:06</div>
-      <a href="/2022/06/03/Linux基本命令/" class="post-title">
-        <h3>Linux基本命令</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/06/03/Linux基本命令/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/06/02/centos磁盘管理/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-6-2 18:06</div>
-      <a href="/2022/06/02/centos磁盘管理/" class="post-title">
-        <h3>centos磁盘管理</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/06/02/centos磁盘管理/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/05/31/ssh连接Linux/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-5-31 12:05</div>
-      <a href="/2022/05/31/ssh连接Linux/" class="post-title">
-        <h3>ssh连接Linux</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/05/31/ssh连接Linux/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/05/30/centos7网络配置教程/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220603/linux.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-5-30 22:05</div>
-      <a href="/2022/05/30/centos7网络配置教程/" class="post-title">
-        <h3>centos7网络IP配置教程</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/Linux教程/">Linux教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/Linux教程/">Linux教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/05/30/centos7网络配置教程/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2022/05/01/UnblockNeteaseMusic自建网易云音乐服务器/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aba66bd1-03ea-482d-811b-4ea202c3baf2/f48e7db4-f6cb-453d-87f3-36f9ca52e208.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220501/网易云音乐.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2022-5-1 14:05</div>
-      <a href="/2022/05/01/UnblockNeteaseMusic自建网易云音乐服务器/" class="post-title">
-        <h3>UnblockNeteaseMusic自建网易云音乐服务器</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/技术教程/">技术教程<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-            <a href="/categories/技术教程/">技术教程</a>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2022/05/01/UnblockNeteaseMusic自建网易云音乐服务器/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-
-
-    </main>
-      <!-- 首页默认取最最新文章集 -->
-    <!-- 
-      <nav class="navigator">
-        
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="iconfont icon-right"></i></a>
-      </nav>
-     -->
-  </div>
-  
-    <div id="pagination"><a href="/page/2/" class="">Previous</a></div>
-  
+        <hr>
+        <p><i class="iconfont icon-write"></i>当你害怕一种东西时，尽可能多地了解它，用知识去征服恐惧。</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
