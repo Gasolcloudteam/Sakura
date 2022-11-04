@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-10-21T05:17:10.620Z</updated>
+  <updated>2022-11-04T07:52:43.248Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重庆能源职业学院-校园网破解路由器调试教程</title>
+    <link href="/2022/11/04/%E9%87%8D%E5%BA%86%E8%83%BD%E6%BA%90%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2-%E6%A0%A1%E5%9B%AD%E7%BD%91%E7%A0%B4%E8%A7%A3%E8%B7%AF%E7%94%B1%E5%99%A8%E8%B0%83%E8%AF%95%E6%95%99%E7%A8%8B/"/>
+    <id>/2022/11/04/重庆能源职业学院-校园网破解路由器调试教程/</id>
+    <published>2022-11-04T07:02:35.000Z</published>
+    <updated>2022-11-04T07:52:43.248Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;a href=&quot;#重庆能源职业学院破解路由器专题&quot; class=&quot;headerlink&quot; title=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;/a&gt;重庆能源职业学院破解路由器专题&lt;/h1&gt;&lt;hr&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Google Chrome内置翻译无法使用修复</title>
@@ -152,7 +179,7 @@
     <link href="/2022/06/13/Centos%E6%90%AD%E5%BB%BAvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>/2022/06/13/Centos搭建vsftpd服务器/</id>
     <published>2022-06-13T09:25:49.000Z</published>
-    <updated>2022-10-01T00:59:38.119Z</updated>
+    <updated>2022-11-04T07:17:03.008Z</updated>
     
     <summary type="html">
     
@@ -178,7 +205,7 @@
     <link href="/2022/06/03/Linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
     <id>/2022/06/03/Linux基本命令/</id>
     <published>2022-06-02T16:27:43.000Z</published>
-    <updated>2022-10-01T00:59:38.119Z</updated>
+    <updated>2022-11-04T07:17:02.928Z</updated>
     
     <summary type="html">
     
@@ -204,7 +231,7 @@
     <link href="/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/"/>
     <id>/2022/06/02/centos磁盘管理/</id>
     <published>2022-06-02T10:41:51.000Z</published>
-    <updated>2022-10-01T00:59:38.119Z</updated>
+    <updated>2022-11-04T07:17:03.008Z</updated>
     
     <summary type="html">
     
@@ -230,7 +257,7 @@
     <link href="/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/"/>
     <id>/2022/05/31/ssh连接Linux/</id>
     <published>2022-05-31T04:48:51.000Z</published>
-    <updated>2022-10-01T00:59:37.918Z</updated>
+    <updated>2022-11-04T07:17:02.927Z</updated>
     
     <summary type="html">
     
@@ -256,7 +283,7 @@
     <link href="/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
     <id>/2022/05/30/centos7网络配置教程/</id>
     <published>2022-05-30T14:55:21.000Z</published>
-    <updated>2022-10-01T00:59:38.129Z</updated>
+    <updated>2022-11-04T07:17:03.046Z</updated>
     
     <summary type="html">
     
@@ -282,7 +309,7 @@
     <link href="/2022/05/01/UnblockNeteaseMusic%E8%87%AA%E5%BB%BA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>/2022/05/01/UnblockNeteaseMusic自建网易云音乐服务器/</id>
     <published>2022-05-01T06:50:14.000Z</published>
-    <updated>2022-10-01T00:59:37.942Z</updated>
+    <updated>2022-11-04T07:17:02.514Z</updated>
     
     <summary type="html">
     
@@ -308,7 +335,7 @@
     <link href="/2022/04/23/win10%E4%BD%BF%E7%94%A8win11%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97/"/>
     <id>/2022/04/23/win10使用win11应用商店/</id>
     <published>2022-04-23T06:25:03.000Z</published>
-    <updated>2022-10-01T00:59:37.918Z</updated>
+    <updated>2022-11-04T07:17:02.514Z</updated>
     
     <summary type="html">
     
@@ -510,32 +537,6 @@
     
     
       <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python学习笔记</title>
-    <link href="/2021/08/15/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>/2021/08/15/Python学习笔记/</id>
-    <published>2021-08-15T06:51:31.000Z</published>
-    <updated>2022-10-01T00:59:38.119Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;print-函数与变量&quot;&gt;&lt;a href=&quot;#print-函数与变量&quot; class=&quot;headerlink&quot; title=&quot;print()函数与变量&quot;&gt;&lt;/a&gt;print()函数与变量&lt;/h1&gt;&lt;h3 id=&quot;难点&quot;&gt;&lt;a href=&quot;#难点&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python学习笔记" scheme="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="Python学习笔记" scheme="/tags/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
