@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
@@ -59,8 +59,9 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="星尘の小站" type="application/atom+xml">
 </head>
-</html>
+
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
   </div>
@@ -208,56 +209,56 @@
                   <ul class="sub-menu">
                     
                       <li>
-                        <a href="/categories/技术教程/">
+                        <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-code" aria-hidden="true"></i>
                           技术教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Linux教程/">
+                        <a href="/categories/Linux%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-file-text-o" aria-hidden="true"></i>
                           Linux教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/软件教程/">
+                        <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-cloud-download" aria-hidden="true"></i>
                           软件教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/公告/">
+                        <a href="/categories/%E5%85%AC%E5%91%8A/">
                           <i class="fa fa-commenting-o" aria-hidden="true"></i>
                           公告
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Java学习笔记/">
+                        <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           Java学习笔记
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Python学习笔记/">
+                        <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           Python学习笔记
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/电影资源分享/">
+                        <a href="/categories/%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">
                           <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
                           电影资源分享
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/心晴日迹/">
+                        <a href="/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           心晴日迹
                         </a>
@@ -392,9 +393,9 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h2 id="✨前言"><a href="#✨前言" class="headerlink" title="✨前言"></a>✨前言</h2><p>我们都知道，<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> 是一个静态部署博客的框架，优点在于速度快，成本低（无需服务器），缺点在于繁琐，你每次更新文章都需要去改代码，再部署推送，修改配置也是如此，你不能像 <code>WordPress</code> 一样直接在后台修改配置并使它生效。</p>
-<p>不过有很多教程可以让你无需繁琐的部署，只管推送代码，通过 <code>GitHub Actions</code>，<code>travis-ci</code>，<a href="https://vercel.com/" target="_blank" rel="noopener">vercel</a>，<a href="netlifyhttps://www.netlify.com/" target="_blank" rel="noopener">Netlify</a> 等都可以便捷的进行博客的部署，只管写代码然后推送就好，类似的教程有非常多，在此就不再重复介绍。那么，我们是否可以在此基础上，更加便捷的进行静态博客的写作和管理？答案是可以的。</p>
-<p>我们可以通过将博客部署到 <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>，并使用 <a href="https://www.netlifycms.org/" target="_blank" rel="noopener">Netlify CMS</a> 来做到这一点。</p>
+          <h2 id="✨前言"><a href="#✨前言" class="headerlink" title="✨前言"></a>✨前言</h2><p>我们都知道，<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 是一个静态部署博客的框架，优点在于速度快，成本低（无需服务器），缺点在于繁琐，你每次更新文章都需要去改代码，再部署推送，修改配置也是如此，你不能像 <code>WordPress</code> 一样直接在后台修改配置并使它生效。</p>
+<p>不过有很多教程可以让你无需繁琐的部署，只管推送代码，通过 <code>GitHub Actions</code>，<code>travis-ci</code>，<a target="_blank" rel="noopener" href="https://vercel.com/">vercel</a>，<a href="netlifyhttps://www.netlify.com/">Netlify</a> 等都可以便捷的进行博客的部署，只管写代码然后推送就好，类似的教程有非常多，在此就不再重复介绍。那么，我们是否可以在此基础上，更加便捷的进行静态博客的写作和管理？答案是可以的。</p>
+<p>我们可以通过将博客部署到 <a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a>，并使用 <a target="_blank" rel="noopener" href="https://www.netlifycms.org/">Netlify CMS</a> 来做到这一点。</p>
 <p>首先，我们来了解一下配置完之后可以做到哪些事情？</p>
 <ul>
 <li>在线新建，编辑，预览，删除博客文章</li>
@@ -403,23 +404,23 @@
 <li>支持在线修改博客配置，例如对首页顶部图的修改，友链的修改</li>
 </ul>
 <h3 id="🎈图片预览"><a href="#🎈图片预览" class="headerlink" title="🎈图片预览"></a>🎈图片预览</h3><p>配置完的界面</p>
-<p><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210420211303684.png" alt="1"></p>
+<p><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210420211303684.png" alt="1"></p>
 <p>在线对文章进行编辑，修改</p>
-<p><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418222435713.png" alt="2"></p>
-<h2 id="📃简单说明"><a href="#📃简单说明" class="headerlink" title="📃简单说明"></a>📃简单说明</h2><p>下面我将会以 <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> + 做演示，只要你配置完成，几乎可以修改所有配置项。包括但不限于以下类型的文件<code>yml</code>、<code>yaml</code>、<code>toml</code>、<code>json</code>、<code>md</code>、<code>markdown</code>、<code>html</code>具体请查看 👉<a href="https://www.netlifycms.org/" target="_blank" rel="noopener">Netlify CMS</a> 文档。</p>
-<h2 id="🔧具体配置"><a href="#🔧具体配置" class="headerlink" title="🔧具体配置"></a>🔧具体配置</h2><p><a href="https://www.netlifycms.org/" target="_blank" rel="noopener">Netlify CMS</a> 使用的前提条件是你必须将博客部署到 <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a> 上。因为网上有很多部署教程，这里不再重复。</p>
+<p><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418222435713.png" alt="2"></p>
+<h2 id="📃简单说明"><a href="#📃简单说明" class="headerlink" title="📃简单说明"></a>📃简单说明</h2><p>下面我将会以 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> + 做演示，只要你配置完成，几乎可以修改所有配置项。包括但不限于以下类型的文件<code>yml</code>、<code>yaml</code>、<code>toml</code>、<code>json</code>、<code>md</code>、<code>markdown</code>、<code>html</code>具体请查看 👉<a target="_blank" rel="noopener" href="https://www.netlifycms.org/">Netlify CMS</a> 文档。</p>
+<h2 id="🔧具体配置"><a href="#🔧具体配置" class="headerlink" title="🔧具体配置"></a>🔧具体配置</h2><p><a target="_blank" rel="noopener" href="https://www.netlifycms.org/">Netlify CMS</a> 使用的前提条件是你必须将博客部署到 <a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a> 上。因为网上有很多部署教程，这里不再重复。</p>
 <p>具体可以查看：</p>
 <ul>
-<li><a href="https://guanqr.com/tech/website/deploy-blog-to-netlify/" target="_blank" rel="noopener">博客通过 Netlify 实现持续集成</a></li>
-<li><a href="https://io-oi.me/tech/deploy-static-site-to-netlify/" target="_blank" rel="noopener">将 Hexo 静态博客部署到 Netlify</a></li>
+<li><a target="_blank" rel="noopener" href="https://guanqr.com/tech/website/deploy-blog-to-netlify/">博客通过 Netlify 实现持续集成</a></li>
+<li><a target="_blank" rel="noopener" href="https://io-oi.me/tech/deploy-static-site-to-netlify/">将 Hexo 静态博客部署到 Netlify</a></li>
 </ul>
 <h3 id="👟准备工作"><a href="#👟准备工作" class="headerlink" title="👟准备工作"></a>👟准备工作</h3><p>在部署完成后，你需要开启 <code>Identity</code></p>
-<p><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225044656.png" alt="图片内容"></p>
+<p><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225044656.png" alt="图片内容"></p>
 <p>进入设置中</p>
-<p><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225125358.png" alt="图片内容"></p>
+<p><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225125358.png" alt="图片内容"></p>
 <p>将 Registration preferences 修改为 Invite only 此项为是否开启注册，默认是开启注册。修改为 Invite only 后表示仅受邀请的用户可以注册，当然此项你可以在自己注册完毕之后再行修改。</p>
-<p><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225239607.png" alt="图片内容"></p>
-<p>下滑找到 Git Gateway 并开启。<br><img data-action="zoom" src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225726557.png" alt="图片内容"></p>
+<p><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225239607.png" alt="图片内容"></p>
+<p>下滑找到 Git Gateway 并开启。<br><img src="https://gitee.com/leicancun/cdn/raw/master/Netlify-cms/image-20210418225726557.png" alt="图片内容"></p>
 <p>至此准备工作完成</p>
 <h3 id="🎨安装"><a href="#🎨安装" class="headerlink" title="🎨安装"></a>🎨安装</h3><h4 id="Step1-添加依赖（二选一）"><a href="#Step1-添加依赖（二选一）" class="headerlink" title="Step1: 添加依赖（二选一）"></a>Step1: 添加依赖（二选一）</h4><pre><code class="bash">yarn add hexo-netlify-cms
 // or npm
@@ -432,7 +433,7 @@ npm i hexo-netlify-cms --save
 </code></pre>
 <h4 id="Step3-添加netlify-identity-widget-js-代码如下"><a href="#Step3-添加netlify-identity-widget-js-代码如下" class="headerlink" title="Step3: 添加netlify-identity-widget.js, 代码如下"></a>Step3: 添加netlify-identity-widget.js, 代码如下</h4><pre><code class="js">&lt;script src=&quot;https://identity.netlify.com/v1/netlify-identity-widget.js&quot;&gt;&lt;/script&gt;
 </code></pre>
-<p><img data-action="zoom" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20210814/10.png" alt="图片内容"></p>
+<p><img src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20210814/10.png" alt="图片内容"></p>
 <p><strong>注意： 建议将身份认证设为仅邀请模式</strong></p>
 <p>Okay, 现在Netlify CMS已经好了, 你可以访问<code>你的站点域名/admin</code>查看</p>
 <h4 id="其他配置"><a href="#其他配置" class="headerlink" title="其他配置"></a>其他配置</h4><p>自定义pages自动生成配置</p>
@@ -453,7 +454,7 @@ npm i hexo-netlify-cms --save
 <pre><code class="text">netlify_cms:
   config_file: netlify.yaml
 </code></pre>
-<p>开启/关闭覆盖时间格式配置(默认true)</p>
+<p>开启&#x2F;关闭覆盖时间格式配置(默认true)</p>
 <pre><code class="text">netlify_cms:
   over_format: true
 </code></pre>
@@ -465,7 +466,7 @@ netlify_cms:
   scripts:
     - js/cms/youtube.js
 </code></pre>
-<p>另外，其他的<code>netlify_cms</code>配置变量可以在<a href="https://link.zhihu.com/?target=https%3A//www.netlifycms.org/docs/configuration-options/" target="_blank" rel="noopener">Netlify CMS</a>中找到</p>
+<p>另外，其他的<code>netlify_cms</code>配置变量可以在<a href="https://link.zhihu.com/?target=https://www.netlifycms.org/docs/configuration-options/">Netlify CMS</a>中找到</p>
 <h4 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h4><pre><code class="text">yarn link
 cd example
 yarn link hexo-netlify-cms
@@ -473,8 +474,8 @@ hexo s
 </code></pre>
 <h4 id="关于脚本"><a href="#关于脚本" class="headerlink" title="关于脚本"></a>关于脚本</h4><p>事实上只是简单的在admin的页面下引入，可以通过Netlift CMS的全局变量<code>CMS</code>添加你想实现的自定义组件等。但这块需要花很多时间维护，毕竟预览的原理和hexo生成文件并不一样…</p>
 <p>后续可能会添加对Image Tag的支持(其它应该不考虑实现，因为用不到)….</p>
-<h2 id="详细可见官方中文文档"><a href="#详细可见官方中文文档" class="headerlink" title="详细可见官方中文文档"></a>详细可见官方中文文档</h2><p><a href="https://github.com/jiangtj/hexo-netlify-cms/blob/master/README-ZH.md" target="_blank" rel="noopener">点击此处跳转</a></p>
-<h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><p><a href="jiangtj/hexo-netlify-cms">jiangtj/hexo-netlify-cms</a></p>
+<h2 id="详细可见官方中文文档"><a href="#详细可见官方中文文档" class="headerlink" title="详细可见官方中文文档"></a>详细可见官方中文文档</h2><p><a target="_blank" rel="noopener" href="https://github.com/jiangtj/hexo-netlify-cms/blob/master/README-ZH.md">点击此处跳转</a></p>
+<h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><p><a href="jiangtj/hexo-netlify-cms">jiangtj&#x2F;hexo-netlify-cms</a></p>
 
         </div>
         <!-- .entry-content -->
@@ -506,7 +507,7 @@ hexo s
           
             <div class="post-nepre half previous">
           
-            <a href="/2021/08/15/Python学习笔记/" rel="prev">
+            <a href="/2021/08/15/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev">
               <div class="background">
                 <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20210815/python.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20210815/python.jpg">
               </div>
@@ -524,7 +525,7 @@ hexo s
           
             <div class="post-nepre half next">
           
-            <a href="/2021/08/14/手机投屏程序——AnLink/" rel="next">
+            <a href="/2021/08/14/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E7%A8%8B%E5%BA%8F%E2%80%94%E2%80%94AnLink/" rel="next">
               <div class="background">
                 <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="https://img.wmzhe.top/uploadimg/mac/cb/cbb7/cbb74d68ac79acee76f8ec5c05145116.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://img.wmzhe.top/uploadimg/mac/cb/cbb7/cbb74d68ac79acee76f8ec5c05145116.png">
               </div>
@@ -796,56 +797,56 @@ $(document).ready(function() {
           <ul class="sub-menu">
             
               <li>
-                <a href="/categories/技术教程/">
+                <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-code" aria-hidden="true"></i>
                   技术教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Linux教程/">
+                <a href="/categories/Linux%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-file-text-o" aria-hidden="true"></i>
                   Linux教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/软件教程/">
+                <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-cloud-download" aria-hidden="true"></i>
                   软件教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/公告/">
+                <a href="/categories/%E5%85%AC%E5%91%8A/">
                   <i class="fa fa-commenting-o" aria-hidden="true"></i>
                   公告
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Java学习笔记/">
+                <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   Java学习笔记
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Python学习笔记/">
+                <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   Python学习笔记
                 </a>
               </li>
             
               <li>
-                <a href="/categories/电影资源分享/">
+                <a href="/categories/%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">
                   <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
                   电影资源分享
                 </a>
               </li>
             
               <li>
-                <a href="/categories/心晴日迹/">
+                <a href="/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   心晴日迹
                 </a>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
@@ -59,8 +59,9 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="星尘の小站" type="application/atom+xml">
 </head>
-</html>
+
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
   </div>
@@ -208,56 +209,56 @@
                   <ul class="sub-menu">
                     
                       <li>
-                        <a href="/categories/技术教程/">
+                        <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-code" aria-hidden="true"></i>
                           技术教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Linux教程/">
+                        <a href="/categories/Linux%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-file-text-o" aria-hidden="true"></i>
                           Linux教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/软件教程/">
+                        <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/">
                           <i class="fa fa-cloud-download" aria-hidden="true"></i>
                           软件教程
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/公告/">
+                        <a href="/categories/%E5%85%AC%E5%91%8A/">
                           <i class="fa fa-commenting-o" aria-hidden="true"></i>
                           公告
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Java学习笔记/">
+                        <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           Java学习笔记
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/Python学习笔记/">
+                        <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           Python学习笔记
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/电影资源分享/">
+                        <a href="/categories/%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">
                           <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
                           电影资源分享
                         </a>
                       </li>
                     
                       <li>
-                        <a href="/categories/心晴日迹/">
+                        <a href="/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/">
                           <i class="fa fa-book" aria-hidden="true"></i>
                           心晴日迹
                         </a>
@@ -397,11 +398,11 @@
 <p>本教程通过简单的实例将让大家更好的了解 Java 编程语言。</p>
 <p>移动操作系统 Android 大部分的代码采用 Java 编程语言编程。</p>
 <h2 id="我的第一个-JAVA-程序"><a href="#我的第一个-JAVA-程序" class="headerlink" title="我的第一个 JAVA 程序"></a>我的第一个 JAVA 程序</h2><p>以下我通过一个简单的实例来展示 Java 编程，创建文件 <strong>HelloWorld.java(文件名需与类名一致)</strong>, 代码如下：</p>
-<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><pre><code class="java">public class HelloWorld {
-    public static void main(String[] args) {
+<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><pre><code class="java">public class HelloWorld &#123;
+    public static void main(String[] args) &#123;
         System.out.println(&quot;Hello World&quot;);
-    }
-}
+    &#125;
+&#125;
 </code></pre>
 <p>注：<strong>String args[]</strong> 与<strong>String[] args</strong> 都可以执行，但推荐使用<strong>String[] args</strong>，这样可以避免歧义和误读。</p>
 <p>运行以上实例，输出结果如下：</p>
@@ -415,18 +416,18 @@ Hello World
 <p><strong>java</strong> 后面跟着的是java文件中的类名,例如 HelloWorld 就是类名，如: java HelloWorld。</p>
 <p><strong>注意</strong>：java命令后面不要加.class。</p>
 <p>Gif 图演示：</p>
-<p><img data-action="zoom" src="https://ae01.alicdn.com/kf/H00a67a5eb78f4c3785ca3e22fc08c25d1.png" alt="java-HelloWorld.gif"></p>
+<p><img src="https://ae01.alicdn.com/kf/H00a67a5eb78f4c3785ca3e22fc08c25d1.png" alt="java-HelloWorld.gif"></p>
 <h2 id="易混知识点解析"><a href="#易混知识点解析" class="headerlink" title="易混知识点解析"></a>易混知识点解析</h2><p>有的小伙伴看到后不理解，为什么是 <strong>String[] args</strong>，这个 <strong>args</strong> 是干嘛的？</p>
 <p><strong>String[] args</strong> 可以看出来<u>它是一个数组</u>。在命令行中比如运行 <strong>Test.class</strong> 文件,你可以这样写：</p>
 <pre><code class="java">java Test runoob
 </code></pre>
 <p>相当于给数组传入了一个 <strong>runoob</strong> 字符串。也可以打印出来，可以作为简单的输入。</p>
 <p>例如：</p>
-<pre><code class="java">public class Test {
-    public static void main(String[] args) {
+<pre><code class="java">public class Test &#123;
+    public static void main(String[] args) &#123;
         System.out.println(args[0]);
-    }
-}
+    &#125;
+&#125;
 </code></pre>
 <p>运行以上实例，输出结果如下：</p>
 <pre><code class="java">$ javac Test.java
@@ -442,14 +443,14 @@ runoob
 </blockquote>
 <p>Java 程序利用 main 函数中 args 参数实现参数的传递(<strong>传递空格处理</strong>)</p>
 <pre><code class="java">public class Test
-{
+&#123;
     public static void main(String []args)
-    {
+    &#123;
         System.out.println(args[0]);
         System.out.println(args[1]);
         System.out.println(args[2]);
-    }
-}
+    &#125;
+&#125;
 </code></pre>
 <p>用控制台编译运行：</p>
 <pre><code class="java">$ javac Test.java
@@ -474,7 +475,7 @@ ccc
 <ul>
 <li><strong>public</strong>：表示的这个程序的访问权限，表示的是任何的场合可以被引用，这样 Java 虚拟机就可以找到 main() 方法,从而来运行 <strong>javac</strong> 程序。</li>
 <li><strong>static</strong>： 表明方法是静态的，不依赖类的对象的，是属于类的，在类加载的时候 main() 方法也随着加载到内存中去。</li>
-<li><strong>void:main()</strong>：方法是不需要返回值的。</li>
+<li>**void:main()**：方法是不需要返回值的。</li>
 <li><strong>main</strong>：约定俗成，规定的。</li>
 <li><strong>String[] args</strong>：从控制台接收参数。</li>
 </ul>
@@ -512,7 +513,7 @@ ccc
           
             <div class="post-nepre half previous">
           
-            <a href="/2021/08/14/手机投屏程序——AnLink/" rel="prev">
+            <a href="/2021/08/14/%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F%E7%A8%8B%E5%BA%8F%E2%80%94%E2%80%94AnLink/" rel="prev">
               <div class="background">
                 <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="https://img.wmzhe.top/uploadimg/mac/cb/cbb7/cbb74d68ac79acee76f8ec5c05145116.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://img.wmzhe.top/uploadimg/mac/cb/cbb7/cbb74d68ac79acee76f8ec5c05145116.png">
               </div>
@@ -530,7 +531,7 @@ ccc
           
             <div class="post-nepre half next">
           
-            <a href="/2021/06/27/Hexo静态博客搭建教程/" rel="next">
+            <a href="/2021/06/27/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/" rel="next">
               <div class="background">
                 <img class="lazyload" src="https://cdn.staticaly.com/gh/Gasolcloudteam/cdn@main/20220804/loading.gif" data-src="https://tse1-mm.cn.bing.net/th/id/OIP-C.j7Bw19HA9uWHkX0nf_JlkQHaEK?pid=ImgDet&rs=1" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://tse1-mm.cn.bing.net/th/id/OIP-C.j7Bw19HA9uWHkX0nf_JlkQHaEK?pid=ImgDet&rs=1">
               </div>
@@ -802,56 +803,56 @@ $(document).ready(function() {
           <ul class="sub-menu">
             
               <li>
-                <a href="/categories/技术教程/">
+                <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-code" aria-hidden="true"></i>
                   技术教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Linux教程/">
+                <a href="/categories/Linux%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-file-text-o" aria-hidden="true"></i>
                   Linux教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/软件教程/">
+                <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/">
                   <i class="fa fa-cloud-download" aria-hidden="true"></i>
                   软件教程
                 </a>
               </li>
             
               <li>
-                <a href="/categories/公告/">
+                <a href="/categories/%E5%85%AC%E5%91%8A/">
                   <i class="fa fa-commenting-o" aria-hidden="true"></i>
                   公告
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Java学习笔记/">
+                <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   Java学习笔记
                 </a>
               </li>
             
               <li>
-                <a href="/categories/Python学习笔记/">
+                <a href="/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   Python学习笔记
                 </a>
               </li>
             
               <li>
-                <a href="/categories/电影资源分享/">
+                <a href="/categories/%E7%94%B5%E5%BD%B1%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">
                   <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
                   电影资源分享
                 </a>
               </li>
             
               <li>
-                <a href="/categories/心晴日迹/">
+                <a href="/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/">
                   <i class="fa fa-book" aria-hidden="true"></i>
                   心晴日迹
                 </a>

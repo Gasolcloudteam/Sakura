@@ -3,538 +3,518 @@
   <title>星尘の小站</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="https://blog.xingchencloud.top/"/>
   <updated>2022-11-08T15:28:17.360Z</updated>
-  <id>/</id>
+  <id>https://blog.xingchencloud.top/</id>
   
   <author>
     <name>枷锁云-星尘</name>
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>6种轻量级Linux桌面环境</title>
-    <link href="/2022/11/08/6%E7%A7%8D%E8%BD%BB%E9%87%8F%E7%BA%A7Linux%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/"/>
-    <id>/2022/11/08/6种轻量级Linux桌面环境/</id>
+    <link href="https://blog.xingchencloud.top/2022/11/08/6%E7%A7%8D%E8%BD%BB%E9%87%8F%E7%BA%A7Linux%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/"/>
+    <id>https://blog.xingchencloud.top/2022/11/08/6%E7%A7%8D%E8%BD%BB%E9%87%8F%E7%BA%A7Linux%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</id>
     <published>2022-11-08T15:05:20.000Z</published>
     <updated>2022-11-08T15:28:17.360Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我们不少人应该有一些旧电脑，如果安装现在最新的 Linux
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我们不少人应该有一些旧电脑，如果安装现在最新的 Linux</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Termux崩溃-Process-completed-signal-9错误的解决方法</title>
-    <link href="/2022/11/06/Termux%E5%B4%A9%E6%BA%83-Process-completed-signal-9%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    <id>/2022/11/06/Termux崩溃-Process-completed-signal-9错误的解决方法/</id>
+    <link href="https://blog.xingchencloud.top/2022/11/06/Termux%E5%B4%A9%E6%BA%83-Process-completed-signal-9%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://blog.xingchencloud.top/2022/11/06/Termux%E5%B4%A9%E6%BA%83-Process-completed-signal-9%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
     <published>2022-11-06T07:20:12.000Z</published>
     <updated>2022-11-06T07:41:39.338Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h2&gt;&lt;p&gt;使用Termux安装Proot Linux发行版，用RealVNC Viewer登入系统，没过几秒就会收到The connection
+    <summary type="html">&lt;h2 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h2&gt;&lt;p&gt;使用Termux安装Proot Linux发行版，用RealVNC Viewer登入系统，没过几秒就会收到The connection</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>重庆能源职业学院-校园网破解路由器调试教程</title>
-    <link href="/2022/11/04/%E9%87%8D%E5%BA%86%E8%83%BD%E6%BA%90%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2-%E6%A0%A1%E5%9B%AD%E7%BD%91%E7%A0%B4%E8%A7%A3%E8%B7%AF%E7%94%B1%E5%99%A8%E8%B0%83%E8%AF%95%E6%95%99%E7%A8%8B/"/>
-    <id>/2022/11/04/重庆能源职业学院-校园网破解路由器调试教程/</id>
+    <link href="https://blog.xingchencloud.top/2022/11/04/%E9%87%8D%E5%BA%86%E8%83%BD%E6%BA%90%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2-%E6%A0%A1%E5%9B%AD%E7%BD%91%E7%A0%B4%E8%A7%A3%E8%B7%AF%E7%94%B1%E5%99%A8%E8%B0%83%E8%AF%95%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.xingchencloud.top/2022/11/04/%E9%87%8D%E5%BA%86%E8%83%BD%E6%BA%90%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2-%E6%A0%A1%E5%9B%AD%E7%BD%91%E7%A0%B4%E8%A7%A3%E8%B7%AF%E7%94%B1%E5%99%A8%E8%B0%83%E8%AF%95%E6%95%99%E7%A8%8B/</id>
     <published>2022-11-04T07:02:35.000Z</published>
     <updated>2022-12-15T01:21:36.100Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;a href=&quot;#重庆能源职业学院破解路由器专题&quot; class=&quot;headerlink&quot; title=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;/a&gt;重庆能源职业学院破解路由器专题&lt;/h1&gt;&lt;hr&gt;
-&lt;h2
+    <summary type="html">&lt;h1 id=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;a href=&quot;#重庆能源职业学院破解路由器专题&quot; class=&quot;headerlink&quot; title=&quot;重庆能源职业学院破解路由器专题&quot;&gt;&lt;/a&gt;重庆能源职业学院破解路由器专题&lt;/h1&gt;&lt;hr&gt;
+&lt;h2</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Google Chrome内置翻译无法使用修复</title>
-    <link href="/2022/10/08/Google-Chrome%E5%86%85%E7%BD%AE%E7%BF%BB%E8%AF%91%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%BF%AE%E5%A4%8D/"/>
-    <id>/2022/10/08/Google-Chrome内置翻译无法使用修复/</id>
+    <link href="https://blog.xingchencloud.top/2022/10/08/Google-Chrome%E5%86%85%E7%BD%AE%E7%BF%BB%E8%AF%91%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%BF%AE%E5%A4%8D/"/>
+    <id>https://blog.xingchencloud.top/2022/10/08/Google-Chrome%E5%86%85%E7%BD%AE%E7%BF%BB%E8%AF%91%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%BF%AE%E5%A4%8D/</id>
     <published>2022-10-08T08:01:15.000Z</published>
     <updated>2022-10-21T05:17:10.620Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Windows11老机型ISO覆盖更新绕过TPM教程</title>
-    <link href="/2022/09/22/Windows11%E8%80%81%E6%9C%BA%E5%9E%8BISO%E8%A6%86%E7%9B%96%E6%9B%B4%E6%96%B0%E7%BB%95%E8%BF%87TPM%E6%95%99%E7%A8%8B/"/>
-    <id>/2022/09/22/Windows11老机型ISO覆盖更新绕过TPM教程/</id>
+    <link href="https://blog.xingchencloud.top/2022/09/22/Windows11%E8%80%81%E6%9C%BA%E5%9E%8BISO%E8%A6%86%E7%9B%96%E6%9B%B4%E6%96%B0%E7%BB%95%E8%BF%87TPM%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.xingchencloud.top/2022/09/22/Windows11%E8%80%81%E6%9C%BA%E5%9E%8BISO%E8%A6%86%E7%9B%96%E6%9B%B4%E6%96%B0%E7%BB%95%E8%BF%87TPM%E6%95%99%E7%A8%8B/</id>
     <published>2022-09-22T01:07:06.000Z</published>
     <updated>2022-12-15T01:50:30.405Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Centos安装hexo</title>
-    <link href="/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/"/>
-    <id>/2022/08/22/Centos安装hexo/</id>
+    <link href="https://blog.xingchencloud.top/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/"/>
+    <id>https://blog.xingchencloud.top/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/</id>
     <published>2022-08-22T07:56:01.000Z</published>
-    <updated>2022-10-01T00:59:38.119Z</updated>
+    <updated>2022-12-21T08:13:36.664Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;hexo文档：&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;1、安装Git&quot;&gt;&lt;a
+    <summary type="html">&lt;p&gt;hexo文档：&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;1、安装Git&quot;&gt;&lt;a href=&quot;#1、安装Git&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>百度网盘破解限速汇总</title>
-    <link href="/2022/08/12/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%A0%B4%E8%A7%A3%E9%99%90%E9%80%9F%E6%B1%87%E6%80%BB/"/>
-    <id>/2022/08/12/百度网盘破解限速汇总/</id>
+    <link href="https://blog.xingchencloud.top/2022/08/12/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%A0%B4%E8%A7%A3%E9%99%90%E9%80%9F%E6%B1%87%E6%80%BB/"/>
+    <id>https://blog.xingchencloud.top/2022/08/12/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%A0%B4%E8%A7%A3%E9%99%90%E9%80%9F%E6%B1%87%E6%80%BB/</id>
     <published>2022-08-12T14:22:24.000Z</published>
     <updated>2022-12-13T09:58:04.407Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;淦！百度网盘！&quot;&gt;&lt;a href=&quot;#淦！百度网盘！&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;淦！百度网盘！&quot;&gt;&lt;a href=&quot;#淦！百度网盘！&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="软件教程" scheme="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="软件教程" scheme="/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>通过KMS38激活Windows</title>
-    <link href="/2022/07/07/%E9%80%9A%E8%BF%87KMS38%E6%BF%80%E6%B4%BBWindows/"/>
-    <id>/2022/07/07/通过KMS38激活Windows/</id>
+    <link href="https://blog.xingchencloud.top/2022/07/07/%E9%80%9A%E8%BF%87KMS38%E6%BF%80%E6%B4%BBWindows/"/>
+    <id>https://blog.xingchencloud.top/2022/07/07/%E9%80%9A%E8%BF%87KMS38%E6%BF%80%E6%B4%BBWindows/</id>
     <published>2022-07-07T07:19:15.000Z</published>
     <updated>2022-12-15T01:27:49.499Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对于Windows来说，这么多年以来，自从Windows
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对于Windows来说，这么多年以来，自从Windows</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Centos搭建vsftpd服务器</title>
-    <link href="/2022/06/13/Centos%E6%90%AD%E5%BB%BAvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>/2022/06/13/Centos搭建vsftpd服务器/</id>
+    <link href="https://blog.xingchencloud.top/2022/06/13/Centos%E6%90%AD%E5%BB%BAvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://blog.xingchencloud.top/2022/06/13/Centos%E6%90%AD%E5%BB%BAvsftpd%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2022-06-13T09:25:49.000Z</published>
     <updated>2022-11-04T07:17:03.008Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;查看ip地址&quot;&gt;&lt;a href=&quot;#查看ip地址&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;查看ip地址&quot;&gt;&lt;a href=&quot;#查看ip地址&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Linux基本命令</title>
-    <link href="/2022/06/03/Linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
-    <id>/2022/06/03/Linux基本命令/</id>
+    <link href="https://blog.xingchencloud.top/2022/06/03/Linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <id>https://blog.xingchencloud.top/2022/06/03/Linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</id>
     <published>2022-06-02T16:27:43.000Z</published>
     <updated>2022-12-15T01:43:55.641Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;linux命令查询网站&quot;&gt;&lt;a href=&quot;#linux命令查询网站&quot; class=&quot;headerlink&quot; title=&quot;linux命令查询网站&quot;&gt;&lt;/a&gt;linux命令查询网站&lt;/h2&gt;&lt;p&gt;站长自建自用：&lt;a
+    <summary type="html">&lt;h2 id=&quot;linux命令查询网站&quot;&gt;&lt;a href=&quot;#linux命令查询网站&quot; class=&quot;headerlink&quot; title=&quot;linux命令查询网站&quot;&gt;&lt;/a&gt;linux命令查询网站&lt;/h2&gt;&lt;p&gt;站长自建自用：&lt;a</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>centos磁盘管理</title>
-    <link href="/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/"/>
-    <id>/2022/06/02/centos磁盘管理/</id>
+    <link href="https://blog.xingchencloud.top/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/"/>
+    <id>https://blog.xingchencloud.top/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</id>
     <published>2022-06-02T10:41:51.000Z</published>
     <updated>2022-11-04T07:17:03.008Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;Centos磁盘管理&quot;&gt;&lt;a href=&quot;#Centos磁盘管理&quot; class=&quot;headerlink&quot; title=&quot;Centos磁盘管理&quot;&gt;&lt;/a&gt;Centos磁盘管理&lt;/h2&gt;&lt;h3 id=&quot;新建虚拟磁盘&quot;&gt;&lt;a href=&quot;#新建虚拟磁盘&quot;
+    <summary type="html">&lt;h2 id=&quot;Centos磁盘管理&quot;&gt;&lt;a href=&quot;#Centos磁盘管理&quot; class=&quot;headerlink&quot; title=&quot;Centos磁盘管理&quot;&gt;&lt;/a&gt;Centos磁盘管理&lt;/h2&gt;&lt;h3 id=&quot;新建虚拟磁盘&quot;&gt;&lt;a href=&quot;#新建虚拟磁盘&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>ssh连接Linux</title>
-    <link href="/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/"/>
-    <id>/2022/05/31/ssh连接Linux/</id>
+    <link href="https://blog.xingchencloud.top/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/"/>
+    <id>https://blog.xingchencloud.top/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/</id>
     <published>2022-05-31T04:48:51.000Z</published>
     <updated>2022-11-04T07:17:02.927Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;通过ssh连接Linux系统&quot;&gt;&lt;a href=&quot;#通过ssh连接Linux系统&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;通过ssh连接Linux系统&quot;&gt;&lt;a href=&quot;#通过ssh连接Linux系统&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>centos7网络IP配置教程</title>
-    <link href="/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
-    <id>/2022/05/30/centos7网络配置教程/</id>
+    <link href="https://blog.xingchencloud.top/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.xingchencloud.top/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</id>
     <published>2022-05-30T14:55:21.000Z</published>
     <updated>2022-11-04T07:17:03.046Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;在Centos7中配置ip&quot;&gt;&lt;a href=&quot;#在Centos7中配置ip&quot; class=&quot;headerlink&quot; title=&quot;在Centos7中配置ip&quot;&gt;&lt;/a&gt;在Centos7中配置ip&lt;/h1&gt;&lt;h2 id=&quot;均优先执行以下操作&quot;&gt;&lt;a
+    <summary type="html">&lt;h1 id=&quot;在Centos7中配置ip&quot;&gt;&lt;a href=&quot;#在Centos7中配置ip&quot; class=&quot;headerlink&quot; title=&quot;在Centos7中配置ip&quot;&gt;&lt;/a&gt;在Centos7中配置ip&lt;/h1&gt;&lt;h2 id=&quot;均优先执行以下操作&quot;&gt;&lt;a</summary>
         
       
     
-    </summary>
-    
-      <category term="Linux教程" scheme="/categories/Linux%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Linux教程" scheme="/tags/Linux%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>UnblockNeteaseMusic自建网易云音乐服务器</title>
-    <link href="/2022/05/01/UnblockNeteaseMusic%E8%87%AA%E5%BB%BA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>/2022/05/01/UnblockNeteaseMusic自建网易云音乐服务器/</id>
+    <link href="https://blog.xingchencloud.top/2022/05/01/UnblockNeteaseMusic%E8%87%AA%E5%BB%BA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://blog.xingchencloud.top/2022/05/01/UnblockNeteaseMusic%E8%87%AA%E5%BB%BA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2022-05-01T06:50:14.000Z</published>
     <updated>2022-12-15T01:46:54.901Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h3 id=&quot;1-UnblockNeteaseMusic&quot;&gt;&lt;a href=&quot;#1-UnblockNeteaseMusic&quot; class=&quot;headerlink&quot; title=&quot;1. UnblockNeteaseMusic&quot;&gt;&lt;/a&gt;1.
+    <summary type="html">&lt;h3 id=&quot;1-UnblockNeteaseMusic&quot;&gt;&lt;a href=&quot;#1-UnblockNeteaseMusic&quot; class=&quot;headerlink&quot; title=&quot;1. UnblockNeteaseMusic&quot;&gt;&lt;/a&gt;1.</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>win10使用win11应用商店</title>
-    <link href="/2022/04/23/win10%E4%BD%BF%E7%94%A8win11%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97/"/>
-    <id>/2022/04/23/win10使用win11应用商店/</id>
+    <link href="https://blog.xingchencloud.top/2022/04/23/win10%E4%BD%BF%E7%94%A8win11%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97/"/>
+    <id>https://blog.xingchencloud.top/2022/04/23/win10%E4%BD%BF%E7%94%A8win11%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97/</id>
     <published>2022-04-23T06:25:03.000Z</published>
     <updated>2022-12-15T01:49:03.917Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;win10使用win11应用商店&quot;&gt;&lt;a href=&quot;#win10使用win11应用商店&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;win10使用win11应用商店&quot;&gt;&lt;a href=&quot;#win10使用win11应用商店&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="软件教程" scheme="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="软件教程" scheme="/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Pandownload（第三方复活版）</title>
-    <link href="/2022/03/27/Pandownload%EF%BC%88%E7%AC%AC%E4%B8%89%E6%96%B9%E5%A4%8D%E6%B4%BB%E7%89%88%EF%BC%89/"/>
-    <id>/2022/03/27/Pandownload（第三方复活版）/</id>
+    <link href="https://blog.xingchencloud.top/2022/03/27/Pandownload%EF%BC%88%E7%AC%AC%E4%B8%89%E6%96%B9%E5%A4%8D%E6%B4%BB%E7%89%88%EF%BC%89/"/>
+    <id>https://blog.xingchencloud.top/2022/03/27/Pandownload%EF%BC%88%E7%AC%AC%E4%B8%89%E6%96%B9%E5%A4%8D%E6%B4%BB%E7%89%88%EF%BC%89/</id>
     <published>2022-03-27T06:02:00.000Z</published>
     <updated>2022-10-07T08:10:17.794Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;Pandownload最新破解限速可用版&quot;&gt;&lt;a href=&quot;#Pandownload最新破解限速可用版&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;Pandownload最新破解限速可用版&quot;&gt;&lt;a href=&quot;#Pandownload最新破解限速可用版&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="软件教程" scheme="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="软件教程" scheme="/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>网站加入评论功能</title>
-    <link href="/2022/03/27/%E7%BD%91%E7%AB%99%E5%8A%A0%E5%85%A5%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/"/>
-    <id>/2022/03/27/网站加入评论功能/</id>
+    <link href="https://blog.xingchencloud.top/2022/03/27/%E7%BD%91%E7%AB%99%E5%8A%A0%E5%85%A5%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/"/>
+    <id>https://blog.xingchencloud.top/2022/03/27/%E7%BD%91%E7%AB%99%E5%8A%A0%E5%85%A5%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</id>
     <published>2022-03-27T03:49:00.000Z</published>
     <updated>2022-10-07T08:10:17.514Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;一个简单的概述&quot;&gt;&lt;a href=&quot;#一个简单的概述&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;一个简单的概述&quot;&gt;&lt;a href=&quot;#一个简单的概述&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="公告" scheme="/categories/%E5%85%AC%E5%91%8A/"/>
     
     
-      <category term="公告" scheme="/tags/%E5%85%AC%E5%91%8A/"/>
+    <category term="公告" scheme="https://blog.xingchencloud.top/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="公告" scheme="https://blog.xingchencloud.top/tags/%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
   <entry>
     <title>秒速五厘米-经典台词</title>
-    <link href="/2022/03/12/%E7%A7%92%E9%80%9F%E4%BA%94%E5%8E%98%E7%B1%B3-%E7%BB%8F%E5%85%B8%E5%8F%B0%E8%AF%8D/"/>
-    <id>/2022/03/12/秒速五厘米-经典台词/</id>
+    <link href="https://blog.xingchencloud.top/2022/03/12/%E7%A7%92%E9%80%9F%E4%BA%94%E5%8E%98%E7%B1%B3-%E7%BB%8F%E5%85%B8%E5%8F%B0%E8%AF%8D/"/>
+    <id>https://blog.xingchencloud.top/2022/03/12/%E7%A7%92%E9%80%9F%E4%BA%94%E5%8E%98%E7%B1%B3-%E7%BB%8F%E5%85%B8%E5%8F%B0%E8%AF%8D/</id>
     <published>2022-03-12T10:25:00.000Z</published>
     <updated>2022-10-07T08:10:17.662Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;秒速五厘米——一生的距离&quot;&gt;&lt;a href=&quot;#秒速五厘米——一生的距离&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;秒速五厘米——一生的距离&quot;&gt;&lt;a href=&quot;#秒速五厘米——一生的距离&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="心晴日迹" scheme="/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
     
     
-      <category term="心晴日迹" scheme="/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
     
   </entry>
   
   <entry>
     <title>关于近期steam不稳定的解决方案</title>
-    <link href="/2022/02/05/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%9C%9Fsteam%E4%B8%8D%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>/2022/02/05/关于近期steam不稳定的解决方案/</id>
+    <link href="https://blog.xingchencloud.top/2022/02/05/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%9C%9Fsteam%E4%B8%8D%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://blog.xingchencloud.top/2022/02/05/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%9C%9Fsteam%E4%B8%8D%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2022-02-05T13:14:09.000Z</published>
     <updated>2022-10-07T08:10:17.712Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="软件教程" scheme="/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="软件教程" scheme="/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>原神角色修改事件申诉方式</title>
-    <link href="/2022/01/07/%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E7%94%B3%E8%AF%89%E6%96%B9%E5%BC%8F/"/>
-    <id>/2022/01/07/原神角色修改事件申诉方式/</id>
+    <link href="https://blog.xingchencloud.top/2022/01/07/%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E7%94%B3%E8%AF%89%E6%96%B9%E5%BC%8F/"/>
+    <id>https://blog.xingchencloud.top/2022/01/07/%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E4%BF%AE%E6%94%B9%E4%BA%8B%E4%BB%B6%E7%94%B3%E8%AF%89%E6%96%B9%E5%BC%8F/</id>
     <published>2022-01-07T15:19:02.000Z</published>
     <updated>2022-10-07T08:10:17.711Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
-    
-      <category term="技术教程" scheme="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="技术教程" scheme="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
