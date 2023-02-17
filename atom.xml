@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-02-15T14:25:03.604Z</updated>
+  <updated>2023-02-17T06:28:00.959Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Zlibray最新访问下载方案</title>
+    <link href="https://blog.xingchencloud.top/2023/02/17/Zlibray%E6%9C%80%E6%96%B0%E8%AE%BF%E9%97%AE%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%A1%88/"/>
+    <id>https://blog.xingchencloud.top/2023/02/17/Zlibray%E6%9C%80%E6%96%B0%E8%AE%BF%E9%97%AE%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%A1%88/</id>
+    <published>2023-02-17T06:16:39.000Z</published>
+    <updated>2023-02-17T06:28:00.959Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;因为B站审核的原因，只能放到这里了，感谢各位一直以来的关注！&lt;/p&gt;
+&lt;h1 id=&quot;视频演示【内容全在里面就不写了】&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>继母的拖油瓶是我的前女友追番报告</title>
@@ -483,31 +509,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;通过ssh连接Linux系统&quot;&gt;&lt;a href=&quot;#通过ssh连接Linux系统&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>centos7网络IP配置教程</title>
-    <link href="https://blog.xingchencloud.top/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
-    <id>https://blog.xingchencloud.top/2022/05/30/centos7%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</id>
-    <published>2022-05-30T14:55:21.000Z</published>
-    <updated>2022-11-04T07:17:03.046Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;在Centos7中配置ip&quot;&gt;&lt;a href=&quot;#在Centos7中配置ip&quot; class=&quot;headerlink&quot; title=&quot;在Centos7中配置ip&quot;&gt;&lt;/a&gt;在Centos7中配置ip&lt;/h1&gt;&lt;h2 id=&quot;均优先执行以下操作&quot;&gt;&lt;a</summary>
         
       
     
