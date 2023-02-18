@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-02-17T06:28:00.959Z</updated>
+  <updated>2023-02-18T03:24:41.887Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>革命前辈贡献不如当代小鲜肉？</title>
+    <link href="https://blog.xingchencloud.top/2023/02/18/%E9%9D%A9%E5%91%BD%E5%89%8D%E8%BE%88%E8%B4%A1%E7%8C%AE%E4%B8%8D%E5%A6%82%E5%BD%93%E4%BB%A3%E5%B0%8F%E9%B2%9C%E8%82%89%EF%BC%9F/"/>
+    <id>https://blog.xingchencloud.top/2023/02/18/%E9%9D%A9%E5%91%BD%E5%89%8D%E8%BE%88%E8%B4%A1%E7%8C%AE%E4%B8%8D%E5%A6%82%E5%BD%93%E4%BB%A3%E5%B0%8F%E9%B2%9C%E8%82%89%EF%BC%9F/</id>
+    <published>2023-02-18T03:16:43.000Z</published>
+    <updated>2023-02-18T03:24:41.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Zlibray最新访问下载方案</title>
@@ -484,31 +509,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Centos磁盘管理&quot;&gt;&lt;a href=&quot;#Centos磁盘管理&quot; class=&quot;headerlink&quot; title=&quot;Centos磁盘管理&quot;&gt;&lt;/a&gt;Centos磁盘管理&lt;/h2&gt;&lt;h3 id=&quot;新建虚拟磁盘&quot;&gt;&lt;a href=&quot;#新建虚拟磁盘&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ssh连接Linux</title>
-    <link href="https://blog.xingchencloud.top/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/"/>
-    <id>https://blog.xingchencloud.top/2022/05/31/ssh%E8%BF%9E%E6%8E%A5Linux/</id>
-    <published>2022-05-31T04:48:51.000Z</published>
-    <updated>2022-11-04T07:17:02.927Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;通过ssh连接Linux系统&quot;&gt;&lt;a href=&quot;#通过ssh连接Linux系统&quot; class=&quot;headerlink&quot;</summary>
         
       
     
