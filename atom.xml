@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-02-18T03:24:41.887Z</updated>
+  <updated>2023-02-25T03:31:50.155Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>18了，谈谈现在的一些想法</title>
+    <link href="https://blog.xingchencloud.top/2023/02/24/18%E4%BA%86%EF%BC%8C%E8%B0%88%E8%B0%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/"/>
+    <id>https://blog.xingchencloud.top/2023/02/24/18%E4%BA%86%EF%BC%8C%E8%B0%88%E8%B0%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</id>
+    <published>2023-02-24T07:39:27.000Z</published>
+    <updated>2023-02-25T03:31:50.155Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一想法&quot;&gt;&lt;a href=&quot;#第一想法&quot; class=&quot;headerlink&quot; title=&quot;第一想法&quot;&gt;&lt;/a&gt;第一想法&lt;/h1&gt;&lt;p&gt;相信很多人和我一样，一直幻想着：18了就自由了！想干啥就可以干啥了，游戏也没有防沉迷了！&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>革命前辈贡献不如当代小鲜肉？</title>
@@ -484,31 +510,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;linux命令查询网站&quot;&gt;&lt;a href=&quot;#linux命令查询网站&quot; class=&quot;headerlink&quot; title=&quot;linux命令查询网站&quot;&gt;&lt;/a&gt;linux命令查询网站&lt;/h2&gt;&lt;p&gt;站长自建自用：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Linux教程" scheme="https://blog.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>centos磁盘管理</title>
-    <link href="https://blog.xingchencloud.top/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/"/>
-    <id>https://blog.xingchencloud.top/2022/06/02/centos%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</id>
-    <published>2022-06-02T10:41:51.000Z</published>
-    <updated>2022-11-04T07:17:03.008Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Centos磁盘管理&quot;&gt;&lt;a href=&quot;#Centos磁盘管理&quot; class=&quot;headerlink&quot; title=&quot;Centos磁盘管理&quot;&gt;&lt;/a&gt;Centos磁盘管理&lt;/h2&gt;&lt;h3 id=&quot;新建虚拟磁盘&quot;&gt;&lt;a href=&quot;#新建虚拟磁盘&quot;</summary>
         
       
     
